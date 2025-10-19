@@ -17,7 +17,7 @@ This addresses limitations of earlier work (limited interpretability, lack of da
 ## 🧩 Architecture
 
 <p align="center">
-  <img src="nat_rex_architecture.png" alt="NaT-ReX Architecture" width="700"/>
+  <img src="rex-inference (1).png" alt="NaT-ReX Architecture" width="700"/>
 </p>
 
 **Figure:** A ViT encoder feeds two heads. The **classification head** produces relevance maps via LRP attention rollout (naturalness vs. non-naturalness). The **reconstruction head** uses MC-Dropout to estimate pixel-wise epistemic uncertainty. Joint multitask training enables uncertainty-aware, interpretable analysis.
